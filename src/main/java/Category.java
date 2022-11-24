@@ -60,6 +60,8 @@ public class Category extends Vehicle implements NewInterface {
         else
             this.x = x - 1;
         System.out.println("X and Y are different");
+        System.out.println("X and Y are different");
+        System.out.println("X and Y are different");
         if (true)
             this.y = y + 1;
         System.out.println("X and Y are different");

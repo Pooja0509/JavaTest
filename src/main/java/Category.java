@@ -11,7 +11,7 @@ public class Category extends Vehicle implements NewInterface {
     final int finalfield = 1;
     int x, y;
 
-
+private String[] color = {"black","green"};
     public String getCategory() {
         try{
             int a=10;b=0;c=0;
@@ -29,6 +29,13 @@ public class Category extends Vehicle implements NewInterface {
     public void set(String category){
         this.category=category;
     }
+    public String[] getColor() {
+	return color;
+	}
+	
+		public String[] getColorss() {	
+		return this.color;
+		}
 
     private int m_variable;
 

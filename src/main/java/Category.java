@@ -60,6 +60,10 @@ private String[] color = {"black","green"};
     final String stringValue = "Welcome";
     final String stringValue1 = "Welcome";
     final String stringValue2 = "Welcome";
+	
+    final String stringValue3 = "Welcome";
+    final String stringValue4 = "Welcome";
+    final String stringValue5 = "Welcome";
 
     String get_string() {
         for (; true; )
@@ -72,6 +76,9 @@ private String[] color = {"black","green"};
         else
             this.x = x - 1;
         System.out.println("X and Y are different");
+	System.out.println("X and Y are different");
+	System.out.println("X and Y are different");
+
         if (true)
             this.y = y + 1;
         System.out.println("X and Y are different");

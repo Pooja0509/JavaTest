@@ -35,20 +35,19 @@ public class BMW extends Car{
             int a=10;b=0;c=0;
 
         }catch(Exception e){
-         e.printstacktrace();
+             e.printstacktrace();
         }
         return length;
     }
-
-    @Override public String toString()
-    {
-        public void process1() {
+  public void process1() {
         try{
         //some statements
         } catch(Exception e) {
             logger.error("Error while processing");
           }
         }
+    @Override public String toString()
+    {
         return (super.toString() + "\nseat height is "
                 + seatHeight);
     }

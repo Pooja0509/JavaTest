@@ -4,6 +4,7 @@ public class BMW extends Car{
                  int startHeight)
     {
         super(gear, speed);
+        System.out.println("");
         seatHeight = startHeight;
     }
 
